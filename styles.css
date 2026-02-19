@@ -1,0 +1,379 @@
+/* Brown v. Board of Education Website Styles */
+
+/* Color Palette */
+:root {
+    --primary-color: #1a365d;
+    --secondary-color: #2c5282;
+    --accent-color: #c05621;
+    --light-bg: #f7fafc;
+    --text-dark: #2d3748;
+    --text-light: #4a5568;
+    --border-color: #e2e8f0;
+}
+
+/* Global Styles */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Georgia, 'Times New Roman', serif;
+    line-height: 1.6;
+    color: var(--text-dark);
+    background-color: var(--light-bg);
+}
+
+/* Header */
+header {
+    background: linear-gradient(135deg, var(--primary-color), var(--secondary-color));
+    color: white;
+    text-align: center;
+    padding: 2rem 1rem;
+    box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+}
+
+header h1 {
+    font-size: 2.5rem;
+    margin-bottom: 0.5rem;
+    font-weight: 700;
+}
+
+header h2 {
+    font-size: 1.3rem;
+    font-weight: 300;
+    font-style: italic;
+}
+
+/* Navigation */
+nav {
+    background-color: white;
+    border-bottom: 3px solid var(--accent-color);
+    position: sticky;
+    top: 0;
+    z-index: 100;
+    box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    padding: 0;
+    margin: 0;
+}
+
+nav li {
+    margin: 0;
+}
+
+nav a {
+    display: block;
+    padding: 1rem 1.5rem;
+    text-decoration: none;
+    color: var(--primary-color);
+    font-weight: 600;
+    transition: all 0.3s ease;
+    border-bottom: 3px solid transparent;
+}
+
+nav a:hover {
+    background-color: var(--light-bg);
+    border-bottom-color: var(--accent-color);
+}
+
+/* Main Content */
+main {
+    max-width: 1200px;
+    margin: 2rem auto;
+    padding: 0 2rem;
+}
+
+section {
+    background: white;
+    margin-bottom: 2rem;
+    padding: 2rem;
+    border-radius: 8px;
+    box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+}
+
+h3 {
+    color: var(--primary-color);
+    font-size: 1.8rem;
+    margin-bottom: 1rem;
+    border-bottom: 2px solid var(--accent-color);
+    padding-bottom: 0.5rem;
+}
+
+h4 {
+    color: var(--secondary-color);
+    font-size: 1.3rem;
+    margin: 1.5rem 0 0.5rem 0;
+}
+
+p {
+    margin-bottom: 1rem;
+    text-align: justify;
+}
+
+/* Entry Info Section */
+.entry-info {
+    background-color: var(--light-bg);
+    border-left: 4px solid var(--accent-color);
+    padding: 1.5rem;
+    margin-bottom: 2rem;
+}
+
+.entry-info p {
+    margin-bottom: 0.5rem;
+    text-align: left;
+}
+
+/* Images */
+.hero-image {
+    width: 100%;
+    max-width: 800px;
+    height: auto;
+    display: block;
+    margin: 1.5rem auto;
+    border-radius: 4px;
+    box-shadow: 0 4px 6px rgba(0,0,0,0.1);
+}
+
+.image-gallery {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    gap: 1.5rem;
+    margin: 2rem 0;
+}
+
+.image-gallery img {
+    width: 100%;
+    height: 250px;
+    object-fit: cover;
+    border-radius: 4px;
+    box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+}
+
+.credit {
+    font-size: 0.85rem;
+    color: var(--text-light);
+    font-style: italic;
+    margin-top: -0.5rem;
+    margin-bottom: 1rem;
+    text-align: left;
+}
+
+/* Blockquotes */
+blockquote {
+    background-color: var(--light-bg);
+    border-left: 4px solid var(--accent-color);
+    padding: 1.5rem;
+    margin: 1.5rem 0;
+    font-style: italic;
+    font-size: 1.1rem;
+}
+
+blockquote cite {
+    display: block;
+    margin-top: 1rem;
+    font-size: 0.9rem;
+    font-style: normal;
+    font-weight: 600;
+    color: var(--secondary-color);
+}
+
+/* Timeline */
+.timeline-preview ul,
+.timeline ul {
+    list-style: none;
+    padding-left: 0;
+}
+
+.timeline-preview li,
+.timeline li {
+    padding: 1rem;
+    margin: 0.5rem 0;
+    background-color: var(--light-bg);
+    border-left: 4px solid var(--secondary-color);
+    text-align: left;
+}
+
+.timeline-preview strong,
+.timeline strong {
+    color: var(--accent-color);
+    font-size: 1.1rem;
+}
+
+/* Page Link Cards */
+.page-links {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+    gap: 1.5rem;
+    margin-top: 2rem;
+}
+
+.link-card {
+    background-color: var(--light-bg);
+    padding: 1.5rem;
+    border-radius: 8px;
+    border-top: 4px solid var(--accent-color);
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.link-card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 4px 12px rgba(0,0,0,0.15);
+}
+
+.link-card h4 {
+    margin-top: 0;
+}
+
+.link-card a {
+    color: var(--primary-color);
+    text-decoration: none;
+    font-weight: 700;
+}
+
+.link-card a:hover {
+    color: var(--accent-color);
+}
+
+.link-card p {
+    color: var(--text-light);
+    font-size: 0.95rem;
+    text-align: left;
+}
+
+/* Biography Cards */
+.bio-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    gap: 2rem;
+    margin-top: 2rem;
+}
+
+.bio-card {
+    background-color: var(--light-bg);
+    padding: 1.5rem;
+    border-radius: 8px;
+}
+
+.bio-card img {
+    width: 100%;
+    height: 250px;
+    object-fit: cover;
+    border-radius: 4px;
+    margin-bottom: 1rem;
+}
+
+.bio-card h4 {
+    margin-top: 0;
+}
+
+/* Document Embed */
+.document-embed {
+    margin: 2rem 0;
+    border: 2px solid var(--border-color);
+    border-radius: 4px;
+    overflow: hidden;
+}
+
+.document-embed iframe {
+    width: 100%;
+    height: 600px;
+    border: none;
+}
+
+/* Audio/Video Player */
+.media-player {
+    margin: 2rem 0;
+    text-align: center;
+}
+
+.media-player audio,
+.media-player video {
+    max-width: 100%;
+    border-radius: 4px;
+    box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+}
+
+/* Bibliography Entries */
+.bib-section {
+    margin-top: 2rem;
+}
+
+.bib-entry {
+    margin-bottom: 2rem;
+    padding-bottom: 1rem;
+    border-bottom: 1px solid var(--border-color);
+}
+
+.bib-entry:last-child {
+    border-bottom: none;
+}
+
+.bib-citation {
+    margin-bottom: 0.5rem;
+    font-weight: 600;
+    text-align: left;
+}
+
+.bib-annotation {
+    padding-left: 1.5rem;
+    color: var(--text-light);
+    font-size: 0.95rem;
+    text-align: left;
+}
+
+/* Footer */
+footer {
+    background-color: var(--primary-color);
+    color: white;
+    text-align: center;
+    padding: 1.5rem;
+    margin-top: 3rem;
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+    header h1 {
+        font-size: 2rem;
+    }
+    
+    header h2 {
+        font-size: 1.1rem;
+    }
+    
+    nav a {
+        padding: 0.75rem 1rem;
+        font-size: 0.9rem;
+    }
+    
+    main {
+        padding: 0 1rem;
+    }
+    
+    section {
+        padding: 1.5rem;
+    }
+    
+    .page-links,
+    .bio-grid {
+        grid-template-columns: 1fr;
+    }
+}
+
+/* Print Styles */
+@media print {
+    nav, footer {
+        display: none;
+    }
+    
+    section {
+        page-break-inside: avoid;
+    }
+}
