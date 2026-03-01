@@ -22,20 +22,20 @@ This is a complete website template for a National History Day project about Bro
 
 ### 1. Images
 Create an `images/` folder and add the following photographs (with proper credits):
-- `brown-v-board-header.jpg` - Linda Brown or Supreme Court building
-- `plessy-ferguson.jpg` - Homer Plessy historical photo
-- `segregated-school-black.jpg` - African American school
-- `segregated-school-white.jpg` - White school for comparison
-- `linda-brown.jpg` - Linda Brown as a child
-- `marshall-team.jpg` - Thurgood Marshall with legal team
-- `earl-warren.jpg` - Chief Justice Warren
-- `kenneth-mamie-clark.jpg` - The Clarks
-- `charles-houston.jpg` - Charles Hamilton Houston
-- `spottswood-robinson.jpg` - Spottswood Robinson
-- `harry-briggs.jpg` - Harry Briggs
-- `john-marshall-harlan.jpg` - Justice Harlan
-- `oliver-linda-brown.jpg` - Oliver and Linda Brown
-- `thurgood-marshall.jpg` - Thurgood Marshall
+-1 `brown-v-board-header.jpg` - Linda Brown or Supreme Court building
+-1 `plessy-ferguson.jpg` - Homer Plessy historical photo
+-1 `segregated-school-black.jpg` - African American school
+-1 `segregated-school-white.jpg` - White school for comparison
+-1 `linda-brown.jpg` - Linda Brown as a child
+-1 `marshall-team.jpg` - Thurgood Marshall with legal team
+-1 `earl-warren.jpg` - Chief Justice Warren
+-1 `kenneth-mamie-clark.jpg` - The Clarks
+-1 `charles-houston.jpg` - Charles Hamilton Houston
+-1 `spottswood-robinson.jpg` - Spottswood Robinson
+-1 `harry-briggs.jpg` - Harry Briggs
+-1 `john-marshall-harlan.jpg` - Justice Harlan
+-1 `oliver-linda-brown.jpg` - Oliver and Linda Brown
+-1 `thurgood-marshall.jpg` - Thurgood Marshall
 - `supreme-court-1954.jpg` - Supreme Court building
 - `newspaper-headlines.jpg` - Brown decision headlines
 - `little-rock-nine.jpg` - Little Rock Nine
@@ -53,7 +53,7 @@ Create an `images/` folder and add the following photographs (with proper credit
 
 ### 2. Multimedia (Optional but Recommended)
 Create a `media/` folder for:
-- `marshall-argument-excerpt.mp3` - Audio clip of oral arguments (under 1 minute)
+-1 `marshall-argument-excerpt.mp3` - Audio clip of oral arguments (under 1 minute)
 - `brown-announcement-news.mp4` - Video of news coverage (under 2 minutes)
 
 **REMEMBER:** Total multimedia across ALL pages cannot exceed 3 minutes.
