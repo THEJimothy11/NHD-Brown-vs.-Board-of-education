@@ -36,12 +36,12 @@ Create an `images/` folder and add the following photographs (with proper credit
 -1 `john-marshall-harlan.jpg` - Justice Harlan
 -1 `oliver-linda-brown.jpg` - Oliver and Linda Brown
 -1 `thurgood-marshall.jpg` - Thurgood Marshall
-- `supreme-court-1954.jpg` - Supreme Court building
-- `newspaper-headlines.jpg` - Brown decision headlines
-- `little-rock-nine.jpg` - Little Rock Nine
-- `elizabeth-eckford.jpg` - Elizabeth Eckford
-- `civil-rights-march.jpg` - Civil rights demonstration
-- `brown-memorial.jpg` - Brown National Historic Site
+-1 `supreme-court-1954.jpg` - Supreme Court building
+-1 `newspaper-headlines.jpg` - Brown decision headlines
+-1 `little-rock-nine.jpg` - Little Rock Nine
+-1 `elizabeth-eckford.jpg` - Elizabeth Eckford
+-1 `civil-rights-march.jpg` - Civil rights demonstration
+-1 `brown-memorial.jpg` - Brown National Historic Site
 
 **Where to find images:**
 - Library of Congress (loc.gov)
@@ -66,14 +66,11 @@ Create a `documents/` folder and add PDFs of:
 ### 4. Content to Customize
 
 #### Replace Placeholders:
-- `[Your Names Here]` - Add student names on home page
-- `[Junior/Senior]` - Specify your division
+-1 `[Your Names Here]` - Add student names on home page
 - `[XXX]` - Add actual word counts throughout
 - `[X:XX]` - Add multimedia length
-- `[Specific catalog number]` - Add actual Library of Congress/Archives numbers
-- `[Record Group number]` - Add National Archives record groups
-- `[insert dates]` - Add your research dates
-- `[insert theme]` - Add this year's NHD theme
+-1 `[insert dates]` - Add your research dates
+-1 `[insert theme]` - Add this year's NHD theme
 
 #### Write Your Own Content:
 - Complete the process paper (300-500 words)
@@ -89,9 +86,8 @@ Create a `documents/` folder and add PDFs of:
 - [x] Follows all general rules
 
 ### E2: Entry Creation
-- [ ] Upload to NHD website editor (nhd.org/nhdwebcentral)
 - [x] All pages connected with navigation
-- [ ] Credit all photos, graphics, video, music
+- [x] Credit all photos, graphics, video, music
 
 ### E3: Size Requirements
 - [ ] Verify total word count is under 1,200 words
@@ -107,12 +103,12 @@ Create a `documents/` folder and add PDFs of:
 ### E5: Documents & Multimedia
 - [ ] Verify multimedia totals under 3 minutes
 - [ ] No external links (except required downloads)
-- [ ] No auto-playing music
+- [x] No auto-playing music
 
 ### E6: Crediting Sources ✓
 - [x] Template includes credit format
 - [x] Sources cited in bibliography
-- [ ] Remove hyperlinks from displayed URLs
+- [x] Remove hyperlinks from displayed URLs
 
 ### E7: Required Written Materials
 - [ ] Include annotated bibliography PDF
@@ -127,7 +123,6 @@ Create a `documents/` folder and add PDFs of:
 - [x] Works in Chrome, Edge, Firefox, Safari
 
 ### E10: Submitting
-- [ ] Upload to NHD website by deadline
 - [ ] Test all links and multimedia
 - [ ] Verify site is viewable
 
